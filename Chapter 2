@@ -14,4 +14,11 @@
     使用PDO 连接到数据库，需要实例化一个新的PDO对象并且传递一个DSN（Data Source Name，数据源名称）
     代码
     $db_conn = new PDO('mysql:host=localhost;dbname=recipes','php-user','secert');
+    2.4.2 从表中选择数据
+    在创建PDO对象之后，就可以检索数据。选择数据时，借助PDOStatement对象，（代表一条预处理语句，并在该语句被执行后代表一个相关的结果集）
+
+
+
+
+
         
